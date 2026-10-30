@@ -1,0 +1,60 @@
+cmake:
+  application:
+    configuration-dir: 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/MCU_Testbench'
+    source-dir: 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/MCU_Testbench'
+  board:
+    name: 'MCU_Testbench'
+    path:
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/MCU_Testbench/boards/arm/MCU_Testbench'
+    qualifiers: 'stm32f767xx'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/bindings'
+    files:
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/MCU_Testbench/boards/arm/MCU_Testbench/MCU_Testbench.dts'
+    include-dirs:
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/ambiq/dts'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/atmel/include'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/bouffalolab/include'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/gigadevice/include'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/infineon/dts'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/microchip/include'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/microchip/dts'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/nuvoton/dts'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/nxp/dts'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/stm32/dts'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/ti/dts'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/common'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/vendor'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/tricore'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/rx'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/x86'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/xtensa'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/sparc'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/riscv'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/posix'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/arm64'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/arm'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/arc'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts'
+  kconfig:
+    files:
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/MCU_Testbench/boards/arm/MCU_Testbench/MCU_Testbench_defconfig'
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/MCU_Testbench/prj.conf'
+    user-files:
+     - 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/MCU_Testbench/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/Users/hendr/zephyr-sdk-1.0.1'
+  zephyr:
+    version: '4.5.0-rc3'
+    zephyr-base: 'C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr'
+version: '0.1.0'
+west:
+  command: 'C:\Users\hendr\Desktop\Zephyr\zephyrproject\.venv\Scripts\west build -b MCU_Testbench/stm32f767xx -p'
+  topdir: 'C:\Users\hendr\Desktop\Zephyr\zephyrproject'
+  version: '1.5.0'

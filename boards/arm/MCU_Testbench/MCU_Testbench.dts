@@ -1,0 +1,68 @@
+/dts-v1/;
+#include <st/f7/stm32f767.dtsi>
+#include <st/f7/stm32f767vitx-pinctrl.dtsi>   /*These 2 you can steal from the refrence file*/
+
+/ {
+    model = "MCU_Testbench Board";
+
+	chosen {
+		zephyr,sram = &sram0;
+		zephyr,flash = &flash0;
+	};
+
+	aliases {
+		exampleled = &exLed; /* Alias used from code; not strictly required */
+	};
+
+	leds {
+		compatible = "gpio-leds";
+		exLed: led_0 {
+			gpios = <&gpiod 4 GPIO_ACTIVE_HIGH>; /* PD4 (gpio-"d 4"), taken from the schematic; LED is on when the pin is high */
+		};
+	};
+
+
+};
+
+/* External high-speed crystal (HSE), 25 MHz. This is the PLL source. */
+&clk_hse {
+	status = "okay"; // Enables it
+	clock-frequency = <DT_FREQ_M(25)>; // 25 MHz
+};
+
+
+
+
+/*
+ * The main PLL generates a 216 MHz system clock from the 25 MHz crystal.
+ * The values can be taken from the STM32CubeIDE clock configuration tool
+ * (PLLM, PLLN, PLLP, PLLQ). The same tool is useful for other clock settings.
+ */
+
+&pll {
+	div-m = <25>; 
+	mul-n = <432>; 
+	div-p = <2>; 
+	div-q = <9>;  
+	// div-r = <2>; 
+	clocks = <&clk_hse>; /* Use the HSE as PLL reference */
+	status = "okay"; // Enable the value
+};
+
+
+&rcc {
+    clocks = <&pll>;  /* System clock source */
+    clock-frequency = <DT_FREQ_M(216)>;
+    ahb-prescaler = <1>;
+    apb1-prescaler = <4>;  /* 54 MHz */
+    apb2-prescaler = <2>;  /* 108 MHz */
+};
+
+
+
+
+/* Memory */
+/* Only needed if your SoC include doesn't already set 2 MB */
+&flash0 {
+    reg = <0x08000000 DT_SIZE_M(2)>;  /* 2 MB, per the datasheet */
+};

@@ -1,0 +1,2 @@
+# Load Zephyr board defconfig descriptions.
+osource "C:/Users/hendr/Desktop/Zephyr/zephyrproject/MCU_Testbench/boards/arm/MCU_Testbench/Kconfig.defconfig"

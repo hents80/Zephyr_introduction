@@ -1,0 +1,2 @@
+# Load Sysbuild board Kconfig descriptions.
+osource "C:/Users/hendr/Desktop/Zephyr/zephyrproject/MCU_Testbench/boards/arm/MCU_Testbench/Kconfig.sysbuild"

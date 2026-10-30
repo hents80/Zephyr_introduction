@@ -1,0 +1,6 @@
+board:
+  name: MCU_Testbench
+  full_name: MCU Testbench Example 2026
+  vendor: Formula Student Estonia
+  socs:
+    - name: stm32f767xx

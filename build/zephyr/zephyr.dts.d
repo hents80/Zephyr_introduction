@@ -1,0 +1,37 @@
+empty_file.o: \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/misc/empty_file.c \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/MCU_Testbench/boards/arm/MCU_Testbench/MCU_Testbench.dts \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/arm/st/f7/stm32f767.dtsi \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/arm/st/f7/stm32f765.dtsi \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/arm/st/f7/stm32f7.dtsi \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/arm/armv7-m.dtsi \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/common/skeleton.dtsi \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/clock/stm32f7_clock.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/clock/stm32_common_clocks.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/pwm/stm32_pwm.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/dma/stm32_dma.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/reset/stm32f2_4_7_reset.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/reset/stm32-common.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/adc/adc.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/dt-util.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/sys/util_macro.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/sys/util_internal.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/sys/util_loops.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/sys/util_listify.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/sys/util_internal_is_eq.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/sys/util_internal_util_inc.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/sys/util_internal_util_dec.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/sys/util_internal_util_x2.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/memory-controller/stm32-fmc-sdram.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/sensor/qdec_stm32.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr-arm.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/common/freq.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/dts/common/mem.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/display/panel.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/modules/hal/stm32/dts/st/f7/stm32f767vitx-pinctrl.dtsi \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/stm32-pinctrl.h \
+ C:/Users/hendr/Desktop/Zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/stm32-pinctrl-common.h
